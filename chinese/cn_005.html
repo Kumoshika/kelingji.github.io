@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>可林记 Kelingji Bookstore</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="../images/favicon.jpg">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/sidebar.css">
+        <link rel="stylesheet" href="../css/bookdetail.css">
+    </head>
+    <body>
+        <div id="sidebar" class="sidebar">
+            <div class="navigation">
+                <ul>
+                    <li class="list">
+                        <a href="../index.html">
+                            <span class="icon" title="Home"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li class="list active">
+                        <a href="../chs_book.html" title="中文图书">
+                            <span class="icon">中</span>
+                            <span class="title">中文图书</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../eng_book.html" title="English Books">
+                            <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                            <span class="title">English Books</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../stationary.html" title="Stationaries">
+                            <span class="icon"><ion-icon name="cut-outline"></ion-icon></span>
+                            <span class="title">Stationaries</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../aboutus.html" title="About Us">
+                            <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                            <span class="title">About Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../contact.html" title="Contact Us">
+                            <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span class="title">Contact Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../goals.html" title="Our Goals">
+                            <span class="icon"><ion-icon name="trophy-outline"></ion-icon></span>
+                            <span class="title">Our Goals</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div id="mainbody">
+            <div class="header">
+                <a href="../index.html" style="text-decoration: none;">
+                    <h1>可林记 Kelingji Bookstore</h1>
+                </a>
+            </div>
+            <div class="content">
+                <button id="back" onclick="window.history.back()">&#8592; BACK</button>
+
+                <h1 id="book-title">哈雷·普特与魔法林檎</h1>
+
+                <div id="detail-image">
+                    <div class="mySlides">
+                        <img alt="detail1" src="../images/harryringa.jpg">
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img alt="detail2" src="../images/chs_book/magicringa.jpg">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <table id="book-detail">
+                    <caption style="float:left; margin: 7px;">Product Info:</caption>
+                    <col style="width: 40%">
+                    <col style="width: 60%">
+                    <tr>
+                        <td>Author</td>
+                        <td>J·K 林檎</td>
+                    </tr>
+                    <tr>
+                        <td>Publisher</td>
+                        <td>Hogwards</td>
+                    </tr>
+                    <tr>
+                        <td>Published Date</td>
+                        <td>2020/8/10</td>
+                    </tr>
+                    <tr>
+                        <td>Country Of Publication</td>
+                        <td>Taiwan</td>
+                    </tr>
+                    <tr>
+                        <td>No. of Pages</td>
+                        <td>810</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>RM 191.98</td>
+                    </tr>
+                    <tr>
+                        <td>On Hand</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td><button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                            alert('Added To Cart!');">
+                            Add To Cart</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <div id="introduce">
+                    <p>
+                        <span class="intro-title">Introduction:</span>
+                        哈雷·普特从小在姑妈家长大，姑妈告诉他，他的父母被撅死了。实际上，
+                        他们是被拥有homo法的无资格巫师淳平魔用池沼气熏死的。他的姑妈不待见他，他的表哥田所天天撅他，
+                        但是奇妙的一点是，每次哈雷·普特被撅，他的皮炎总会奇迹般地复存，
+                        林檎又是也会涨的像林檎一样红。<br>
+                        有一天，哈雷·普特收到整整三封啊三封信件，署名是“下北泽homo法学院”。
+                        当晚，平野·海格，下北泽的店长，在哈雷·普特戴着小黄帽独自外出时，找到了哈雷。
+                        平野带着哈雷·普特来到一堵砖墙，从未知领域（意味深）掏出了homo杖，射出三发啊三发homo法物质，
+                        落在砖头上。
+                        “噗叽啪！”砖块开始移动，打开了一个狭窄的入口。<br><br>
+                        <b>“homo法师有三大欲望，食欲，性欲与homo法欲。”平野·海格露出池沼微笑：
+                            “欢迎来到下北泽homo法学院”</b>
+                    </p>
+                    <p>
+                        <span class="intro-title">Table Of Content:</span>
+                        前言 <br>
+                        下北泽的来信<br>
+                        homo杖 <br>
+                        下北泽池沼列车 <br>
+                        迷药老师雷普 <br>
+                        午夜撅斗 <br>
+                        万性节前夕 <br>
+                        撅林檎比赛 <br>
+                        木毛魔镜 <br>
+                        三浦·勒梅 <br>
+                        下北泽极霸龙——远野 <br>
+                        林檎 <br>
+                        穿越homo门 <br>
+                        双面先辈<br>
+                        后记
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="footer">
+                <small><i>Copyright@2023 Kelingji Bookstore</i></small>
+            </div>
+        </div>
+
+        <script src="../js/sidebar.js"></script>
+        <script src="../js/detailimage.js"></script>
+
+        <script src="../js/114514(2).js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+</html>

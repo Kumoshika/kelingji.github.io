@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>可林记 Kelingji Bookstore</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="images/favicon.jpg">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/sidebar.css">
+        <link rel="stylesheet" href="css/contact.css">
+    </head>
+    <body>
+        <div id="sidebar" class="sidebar">
+            <div class="navigation">
+                <ul>
+                    <li class="list">
+                        <a href="index.html">
+                            <span class="icon" title="Home"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="chs_book.html" title="中文图书">
+                            <span class="icon">中</span>
+                            <span class="title">中文图书</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="eng_book.html" title="English Books">
+                            <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                            <span class="title">English Books</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="stationary.html" title="Stationaries">
+                            <span class="icon"><ion-icon name="cut-outline"></ion-icon></span>
+                            <span class="title">Stationaries</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="aboutus.html" title="About Us">
+                            <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                            <span class="title">About Us</span>
+                        </a>
+                    </li>
+                    <li class="list active">
+                        <a href="contact.html" title="Contact Us">
+                            <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span class="title">Contact Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="goals.html" title="Our Goals">
+                            <span class="icon"><ion-icon name="trophy-outline"></ion-icon></span>
+                            <span class="title">Our Goals</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div id="mainbody">
+            <div class="header">
+                <a href="index.html" style="text-decoration: none;">
+                    <h1>可林记 Kelingji Bookstore</h1>
+                </a>
+            </div>
+            <div class="content">
+                <h1 id="page-title">Contact Us</h1>
+                <p class="thank">
+                    Thank you for your interest in Kelingji's products and services. 
+                    For any enquiries please do not hesitate to contact us!
+                </p>
+                <div id="contact">
+                    <div>
+                        <ion-icon name="call-outline"></ion-icon>
+                        <span class="contact-method">BY PHONE</span>
+                        <small>(Monday to Friday, 9am to 4pm)</small>
+                        <p>
+                            Manager: <a href="tel:012-64297421">+012-64297421</a>
+                        </p>
+                        <p>
+                            Mr. Teh: <a href="tel:012-3456789">+012-3456789</a>
+                        </p>
+                    </div>
+                    <div>
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <span class="contact-method">BY EMAIL</span>
+                        <small>We'll recieve it!</small>
+                        <p>
+                            <a href="mailto:kelingjibookstore@gmail.com">kelingjibookstore@gmail.com</a>
+                        </p>
+                        <p>
+                            <a href="mailto:tehrt-wp22@student.tarc.edu.my">tehrt-wp22@student.tarc.edu.my</a>
+                        </p>
+                        <p>
+                            <a href="mailto:chanhl-wp22@student.tarc.edu.my">chanhl-wp22@student.tarc.edu.my</a>
+                        </p>
+                        <p>
+                            <a href="mailto:yewks-wp22@student.tarc.edu.my">yewks-wp22@student.tarc.edu.my</a>
+                        </p>
+                    </div>
+                </div>
+                <button onclick="toggle_vol()" type="button">Volume ON/OFF</button>
+                <video id="thank_video" loop autoplay>
+                    <source src="video/thank_you.mp4">
+                </video>
+            </div>
+
+            <div class="footer">
+                <small><i>Copyright@2023 Kelingji Bookstore</i></small>
+            </div>
+        </div>
+
+        <script src="js/sidebar.js"></script>
+
+        <script src="js/114514.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+            let vol = document.getElementById("thank_video");
+            vol.volume = 0;
+            function toggle_vol(){
+                if (vol.volume == 0){
+                    vol.volume = 1;
+                }
+                else if (vol.volume == 1){
+                    vol.volume = 0;
+                }
+            }
+        </script>
+        
+    </body>
+</html>

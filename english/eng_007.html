@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>可林记 Kelingji Bookstore</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="../images/favicon.jpg">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/sidebar.css">
+        <link rel="stylesheet" href="../css/bookdetail.css">
+    </head>
+    <body>
+        <div id="sidebar" class="sidebar">
+            <div class="navigation">
+                <ul>
+                    <li class="list">
+                        <a href="../index.html">
+                            <span class="icon" title="Home"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../chs_book.html" title="中文图书">
+                            <span class="icon">中</span>
+                            <span class="title">中文图书</span>
+                        </a>
+                    </li>
+                    <li class="list active">
+                        <a href="../eng_book.html" title="English Books">
+                            <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                            <span class="title">English Books</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../stationary.html" title="Stationaries">
+                            <span class="icon"><ion-icon name="cut-outline"></ion-icon></span>
+                            <span class="title">Stationaries</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../aboutus.html" title="About Us">
+                            <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                            <span class="title">About Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../contact.html" title="Contact Us">
+                            <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span class="title">Contact Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../goals.html" title="Our Goals">
+                            <span class="icon"><ion-icon name="trophy-outline"></ion-icon></span>
+                            <span class="title">Our Goals</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div id="mainbody">
+            <div class="header">
+                <a href="../index.html" style="text-decoration: none;">
+                    <h1>可林记 Kelingji Bookstore</h1>
+                </a>
+            </div>
+            <div class="content">
+                <button id="back" onclick="window.history.back()">&#8592; BACK</button>
+
+                <h1 id="book-title">Schooling For Holistic Equity</h1>
+
+                <div id="detail-image">
+                    <div class="mySlides">
+                        <img alt="detail1" src="../images/holistic.jpg">
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img alt="detail2" src="../images/eng_book/holistic.jpg">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <table id="book-detail">
+                    <caption style="float:left; margin: 7px;">Product Info:</caption>
+                    <col style="width: 40%">
+                    <col style="width: 60%">
+                    <tr>
+                        <td>Author</td>
+                        <td>Don Berg</td>
+                    </tr>
+                    <tr>
+                        <td>Publisher</td>
+                        <td>Publish Your Purpose</td>
+                    </tr>
+                    <tr>
+                        <td>Published Date</td>
+                        <td>2022/12/7</td>
+                    </tr>
+                    <tr>
+                        <td>Country Of Publication</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <td>No. of Pages</td>
+                        <td>558</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>RM 100.00</td>
+                    </tr>
+                    <tr>
+                        <td>On Hand</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                            alert('Added To Cart!');">
+                            Add To Cart</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <div id="introduce">
+                    <p>
+                        <span class="intro-title">Introduction:</span>
+                        <b>Winner of the Independent Press Award in Psychology and Distinguished Favorite
+                        in Education</b><br><br>
+                        There is no question that the American education system is in crisis. 
+                        There is a significant risk that the mainstream school system will cheat
+                        children out of some - if not all - of the education they deserve because a pervasive, 
+                        hidden curriculum utterly fails to support the well-being of students and educators. 
+                        Students are expected to act like data-processing machines, but real human beings do
+                        not act like machines. In his groundbreaking book "Schooling for Holistic Equity," 
+                        Don Berg explores the reasons for current high levels of student and teacher disengagement, 
+                        the disconnect between educational goals and results, and the "fauxachievement" and
+                        shallow learning that prove woefully inadequate in preparing students for higher education
+                        or the workforce.<br><br>
+                        A leader with more than twenty years of experience in education, 
+                        Berg lays out the foundation for a scientific understanding of deeper learning grounded
+                        in Self-Determination Theory and the primary human needs of autonomy, competence, 
+                        and relatedness. He shows how the central problem in our schools has less to do with
+                        academic instruction and more to do with the psychology of learning. 
+                        His model for educational design, called Catalytic Pedagogy, is a comprehensive plan
+                        to bring about large-scale, systems-level change.<br><br>
+                        Psychological research shows us how to engage and motivate people, 
+                        and recognizing human needs provides us with the exact guidance necessary to proceed
+                        as effective learners and teachers. Schools should be - and can be - joyful places
+                        where passionate teachers teach enthusiastic students. It's time for a transformation
+                        in education, and Berg's trailblazing model shows us the way.
+                    </p>
+                    <p>
+                        <span class="intro-title">Table Of Content:</span>
+                        Intro <br>
+                        Chapter 1 <br>
+                        Chapter 2 <br>
+                        Chapter 3 <br>
+                        Chapter 4 <br>
+                        Chapter 5 <br>
+                        Chapter 6 <br>
+                        Chapter 7 <br>
+                        Chapter 8 <br>
+                        Chapter 9 <br>
+                        Chapter 10 <br>
+                        Chapter 11 <br>
+                        Chapter 12 <br>
+                        Chapter 13 <br>
+                        Chapter 14 <br>
+                        Chapter 15 <br>
+                        Chapter 16 <br>
+                        Chapter 17 <br>
+                        Chapter 18 <br>
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="footer">
+                <small><i>Copyright@2023 Kelingji Bookstore</i></small>
+            </div>
+        </div>
+
+        <script src="../js/sidebar.js"></script>
+        <script src="../js/detailimage.js"></script>
+
+        <script src="../js/114514(2).js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+</html>

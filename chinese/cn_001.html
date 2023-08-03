@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>可林记 Kelingji Bookstore</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="../images/favicon.jpg">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/sidebar.css">
+        <link rel="stylesheet" href="../css/bookdetail.css">
+    </head>
+    <body>
+        <div id="sidebar" class="sidebar">
+            <div class="navigation">
+                <ul>
+                    <li class="list">
+                        <a href="../index.html">
+                            <span class="icon" title="Home"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li class="list active">
+                        <a href="../chs_book.html" title="中文图书">
+                            <span class="icon">中</span>
+                            <span class="title">中文图书</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../eng_book.html" title="English Books">
+                            <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                            <span class="title">English Books</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../stationary.html" title="Stationaries">
+                            <span class="icon"><ion-icon name="cut-outline"></ion-icon></span>
+                            <span class="title">Stationaries</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../aboutus.html" title="About Us">
+                            <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                            <span class="title">About Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../contact.html" title="Contact Us">
+                            <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span class="title">Contact Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../goals.html" title="Our Goals">
+                            <span class="icon"><ion-icon name="trophy-outline"></ion-icon></span>
+                            <span class="title">Our Goals</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div id="mainbody">
+            <div class="header">
+                <a href="../index.html" style="text-decoration: none;">
+                    <h1>可林记 Kelingji Bookstore</h1>
+                </a>
+            </div>
+            <div class="content">
+                <button id="back" onclick="window.history.back()">&#8592; BACK</button>
+
+                <h1 id="book-title">逸一时，误一世</h1>
+
+                <div id="detail-image">
+                    <div class="mySlides">
+                        <img alt="detail1" src="../images/114514book.jpg">
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img alt="detail2" src="../images/chs_book/114514book.jpg">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <table id="book-detail">
+                    <caption style="float:left; margin: 7px;">Product Info:</caption>
+                    <col style="width: 40%">
+                    <col style="width: 60%">
+                    <tr>
+                        <td>Author</td>
+                        <td>田所先辈</td>
+                    </tr>
+                    <tr>
+                        <td>Publisher</td>
+                        <td>Kelingji Bookstore</td>
+                    </tr>
+                    <tr>
+                        <td>Published Date</td>
+                        <td>2023/1/14</td>
+                    </tr>
+                    <tr>
+                        <td>Country Of Publication</td>
+                        <td>Malaysia</td>
+                    </tr>
+                    <tr>
+                        <td>No. of Pages</td>
+                        <td>114</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>RM 11.45</td>
+                    </tr>
+                    <tr>
+                        <td>On Hand</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td><button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                            alert('Added To Cart!');">
+                            Add To Cart</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <div id="introduce">
+                    <p>
+                        <span class="intro-title">Introduction:</span>
+                        田所，公元后114年-公元后514年，事以为撅学家，
+                        门下有1919名弟子，其著作《撅语》更是被其余810学派所借鉴传颂，
+                        在其24岁时，为了保护其著作，有:“那个老子啊，我在传授弟子的时候，
+                        你有在偷看罢？”--《撅语》于是各个学派展开了三回又三回的争论，史称百兽争鸣。
+                        在这之后，先辈大彻大悟，认识到与其无用的争论，事浪费时间的无用功，
+                        于是便有了:“逸一时，误一世，逸久逸久罢一龄”后人评论他为:你是一个一个一个撅学家啊啊啊！<br><br>
+                        <b>“逸一时，误一世。逸久逸久罢一龄。
+                        享受一会儿，就会耽误了一生。享受的时间久了，才反应过来已经到了什么事都做不成的年龄了。”——田所</b>
+                    </p>
+                    <p>
+                        <span class="intro-title">Table Of Content:</span>
+                        先辈的前言 <br>
+                        它是“逸一时误一世”般的谆谆告诫 <br>
+                        它是“逸逸时吾已死”般的真诚金句 <br>
+                        它是“义已失吾亦逝”般的真理精神 <br>
+                        它是“疑一时误一世”般的实践经验 <br>
+                        它是“以宜时悟一事”般的学习方式 <br>
+                        它是“疫一时勿一试”般的疫情防范 <br>
+                        它是“医一时吾已逝”般的远离庸医 <br>
+                        它是“译一诗悟一诗”般的诗和远方 <br>
+                        它是“忆一事悟一事”般的背诵方法 <br>
+                        它是“以逸事误益世”般的人生观念 <br>
+                        它是“异亿时无一试”般的社会观念 <br>
+                        后记
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="footer">
+                <small><i>Copyright@2023 Kelingji Bookstore</i></small>
+            </div>
+        </div>
+
+        <script src="../js/sidebar.js"></script>
+        <script src="../js/detailimage.js"></script>
+
+        <script src="../js/114514(2).js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+</html>

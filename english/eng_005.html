@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>可林记 Kelingji Bookstore</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="../images/favicon.jpg">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/sidebar.css">
+        <link rel="stylesheet" href="../css/bookdetail.css">
+    </head>
+    <body>
+        <div id="sidebar" class="sidebar">
+            <div class="navigation">
+                <ul>
+                    <li class="list">
+                        <a href="../index.html">
+                            <span class="icon" title="Home"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../chs_book.html" title="中文图书">
+                            <span class="icon">中</span>
+                            <span class="title">中文图书</span>
+                        </a>
+                    </li>
+                    <li class="list active">
+                        <a href="../eng_book.html" title="English Books">
+                            <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                            <span class="title">English Books</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../stationary.html" title="Stationaries">
+                            <span class="icon"><ion-icon name="cut-outline"></ion-icon></span>
+                            <span class="title">Stationaries</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../aboutus.html" title="About Us">
+                            <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                            <span class="title">About Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../contact.html" title="Contact Us">
+                            <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span class="title">Contact Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../goals.html" title="Our Goals">
+                            <span class="icon"><ion-icon name="trophy-outline"></ion-icon></span>
+                            <span class="title">Our Goals</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div id="mainbody">
+            <div class="header">
+                <a href="../index.html" style="text-decoration: none;">
+                    <h1>可林记 Kelingji Bookstore</h1>
+                </a>
+            </div>
+            <div class="content">
+                <button id="back" onclick="window.history.back()">&#8592; BACK</button>
+
+                <h1 id="book-title">The Rock Says...</h1>
+
+                <div id="detail-image">
+                    <div class="mySlides">
+                        <img alt="detail1" src="../images/rock.jpg">
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img alt="detail2" src="../images/eng_book/therock.jpg">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <table id="book-detail">
+                    <caption style="float:left; margin: 7px;">Product Info:</caption>
+                    <col style="width: 40%">
+                    <col style="width: 60%">
+                    <tr>
+                        <td>Author</td>
+                        <td>The Rock with Joe Layden</td>
+                    </tr>
+                    <tr>
+                        <td>Publisher</td>
+                        <td>Sussy Bookstore</td>
+                    </tr>
+                    <tr>
+                        <td>Published Date</td>
+                        <td>2000/1/5</td>
+                    </tr>
+                    <tr>
+                        <td>Country Of Publication</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <td>No. of Pages</td>
+                        <td>304</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>RM 141.56</td>
+                    </tr>
+                    <tr>
+                        <td>On Hand</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td><button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                            alert('Added To Cart!');">
+                            Add To Cart</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <div id="introduce">
+                    <p>
+                        <span class="intro-title">Introduction:</span>
+                        The Rock says. . . "Know your damn role--and shut your mouth!" But that simple catch-phrase, 
+                        embraced by the millions ñand the millions--of The Rock's fans, can't begin to capture the spirit
+                        and larger-than-life personality of the most electrifying man in sports-entertainment."<br><br>
+                        In this action-packed, revealing and outrageously funny memoir, World Wrestling Federation Superstar
+                        The Rock recounts his life in and out of the ring with unapologetic honesty and inimitable style. 
+                        From his boyhood days traveling around the world with his father (professional wrestler Rocky Johnson) 
+                        to his years as a football player at the University of Miami to his meteoric rise through the ranks of
+                        the Federation, The Rock Says. . .chronicles in vivid detail the life story of one of sports-entertainment's
+                        most innovative and best-loved personalities.<br><br>
+                        The Rock recalls his injury-plagued career at Miami and a subsequent foray to the Great White North, 
+                        where he discovered that in Canada being a professional football player is not exactly a glamorous life. 
+                        After a few months of sleeping on putrid, stained mattresses that he dug out of the garbage and subsisting
+                        on nothing but plain spaghetti, "D.J." ditched his cleats forever and set his sights on the path of his
+                        father and grandfather--wrestling.<br><br>
+                        Performing first in the minors as plain old Dwayne Johnson, then as "Flex Kavana" and later as "Rocky Maivia," 
+                        he quickly became one of the World Wrestling Federation's hopefuls. But no matter how he tried to get over
+                        with the fans, the stadiums greeted him with chants of "Rocky sucks! Rocky sucks!" He then adopted the brash
+                        persona of The Rock--a snorting, spitting, snotting, swearing son-of-a-bitch with the soul of a smart-ass
+                        comic and the body of an Adonis--and he found his true calling as the "People's Champion."<br><br>
+                        The Rock will take fans on a guided tour of big-time professional wrestling, a highly competitive business
+                        in which a handful of gifted and lucky performers dominate, and all others dream of a moment in the spotlight. 
+                        He provides a breathtaking, minute-by-minute account of Wrestle Mania, the Super Bowl of pro wrestling, 
+                        including an intimate backstage look at rehearsals with his opponent, Stone Cold Steve Austin. 
+                        And he discusses in heartfelt detail the loss of his friend and co-worker, Owen Hart.<br><br>
+                        Filled with genuinely touching stories of love and strife, hilarious anecdotes, inside accounts
+                        of an industry whose machinations have long been shrouded in secrecy and dozens of previously unpublished
+                        photographs from The Rock's personal collection, The Rock Says. . .is--as The Rock himself might put it--"the
+                        coolest thing since the other side of the pillow if you smell what The Rock is cookin'."
+                    </p>
+                    <p>
+                        <span class="intro-title">Table Of Content:</span>
+                        Intro <br>
+                        Chapter 1 <br>
+                        Chapter 2 <br>
+                        Chapter 3 <br>
+                        Chapter 4 <br>
+                        Chapter 5 <br>
+                        Chapter 6 <br>
+                        Chapter 7 <br>
+                        Chapter 8 <br>
+                        Chapter 9 <br>
+                        Chapter 10 <br>
+                        Chapter 11 <br>
+                        Chapter 12
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="footer">
+                <small><i>Copyright@2023 Kelingji Bookstore</i></small>
+            </div>
+        </div>
+
+        <script src="../js/sidebar.js"></script>
+        <script src="../js/detailimage.js"></script>
+
+        <script src="../js/114514(2).js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+</html>

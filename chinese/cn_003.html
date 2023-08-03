@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>可林记 Kelingji Bookstore</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="../images/favicon.jpg">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/sidebar.css">
+        <link rel="stylesheet" href="../css/bookdetail.css">
+    </head>
+    <body>
+        <div id="sidebar" class="sidebar">
+            <div class="navigation">
+                <ul>
+                    <li class="list">
+                        <a href="../index.html">
+                            <span class="icon" title="Home"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li class="list active">
+                        <a href="../chs_book.html" title="中文图书">
+                            <span class="icon">中</span>
+                            <span class="title">中文图书</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../eng_book.html" title="English Books">
+                            <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                            <span class="title">English Books</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../stationary.html" title="Stationaries">
+                            <span class="icon"><ion-icon name="cut-outline"></ion-icon></span>
+                            <span class="title">Stationaries</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../aboutus.html" title="About Us">
+                            <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                            <span class="title">About Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../contact.html" title="Contact Us">
+                            <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span class="title">Contact Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../goals.html" title="Our Goals">
+                            <span class="icon"><ion-icon name="trophy-outline"></ion-icon></span>
+                            <span class="title">Our Goals</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div id="mainbody">
+            <div class="header">
+                <a href="../index.html" style="text-decoration: none;">
+                    <h1>可林记 Kelingji Bookstore</h1>
+                </a>
+            </div>
+            <div class="content">
+                <button id="back" onclick="window.history.back()">&#8592; BACK</button>
+
+                <h1 id="book-title">记尼态梅</h1>
+
+                <div id="detail-image">
+                    <div class="mySlides">
+                        <img alt="detail1" src="../images/ctrl.jpg">
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img alt="detail2" src="../images/chs_book/jinitaimei.jpg">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <table id="book-detail">
+                    <caption style="float:left; margin: 7px;">Product Info:</caption>
+                    <col style="width: 40%">
+                    <col style="width: 60%">
+                    <tr>
+                        <td>Author</td>
+                        <td>只因鸽鸽</td>
+                    </tr>
+                    <tr>
+                        <td>Publisher</td>
+                        <td>Niganma Publishing</td>
+                    </tr>
+                    <tr>
+                        <td>Published Date</td>
+                        <td>2020/2/05</td>
+                    </tr>
+                    <tr>
+                        <td>Country Of Publication</td>
+                        <td>China</td>
+                    </tr>
+                    <tr>
+                        <td>No. of Pages</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>RM 25.00</td>
+                    </tr>
+                    <tr>
+                        <td>On Hand</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td><button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                            alert('Added To Cart!');">
+                            Add To Cart</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <div id="introduce">
+                    <p>
+                        <span class="intro-title">Introduction:</span>
+                        相传中国有一个世外桃源，名为：“尼甘玛”。里面的人皆是中分头，背带裤，且非常精通唱，跳，rap，篮球。
+                        尼甘玛在梅花绽放的季节，会举办只因祭，在祭典中成功打篮球两天半的人，将获得“只因”的荣誉。<br>
+                        相反，没能支撑下去的人，将会被叫做小黑子两年半。<br><br>
+                        <b>此书记述了在梅花季节时尼甘玛的故事，故称“记尼态梅”</b>
+                    </p>
+                    <p>
+                        <span class="intro-title">Table Of Content:</span>
+                        前言 <br>
+                        尼甘玛<br>
+                        一刀横劈松树上，树脂流流流 <br>
+                        食不食油饼 <br>
+                        蒸乌鱼 <br>
+                        适度碗羹 <br>
+                        香精煎鱼食不食 <br>
+                        小黑子荔枝点 <br>
+                        练习两年半 <br>
+                        One last chicken <br>
+                        后记
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="footer">
+                <small><i>Copyright@2023 Kelingji Bookstore</i></small>
+            </div>
+        </div>
+
+        <script src="../js/sidebar.js"></script>
+        <script src="../js/detailimage.js"></script>
+
+        <script src="../js/114514(2).js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+</html>

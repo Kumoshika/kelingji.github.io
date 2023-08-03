@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>可林记 Kelingji Bookstore</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="../images/favicon.jpg">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/sidebar.css">
+        <link rel="stylesheet" href="../css/bookdetail.css">
+    </head>
+    <body>
+        <div id="sidebar" class="sidebar">
+            <div class="navigation">
+                <ul>
+                    <li class="list">
+                        <a href="../index.html">
+                            <span class="icon" title="Home"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li class="list active">
+                        <a href="../chs_book.html" title="中文图书">
+                            <span class="icon">中</span>
+                            <span class="title">中文图书</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../eng_book.html" title="English Books">
+                            <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                            <span class="title">English Books</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../stationary.html" title="Stationaries">
+                            <span class="icon"><ion-icon name="cut-outline"></ion-icon></span>
+                            <span class="title">Stationaries</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../aboutus.html" title="About Us">
+                            <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                            <span class="title">About Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../contact.html" title="Contact Us">
+                            <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span class="title">Contact Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../goals.html" title="Our Goals">
+                            <span class="icon"><ion-icon name="trophy-outline"></ion-icon></span>
+                            <span class="title">Our Goals</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div id="mainbody">
+            <div class="header">
+                <a href="../index.html" style="text-decoration: none;">
+                    <h1>可林记 Kelingji Bookstore</h1>
+                </a>
+            </div>
+            <div class="content">
+                <button id="back" onclick="window.history.back()">&#8592; BACK</button>
+
+                <h1 id="book-title">大学物理学习题解析</h1>
+
+                <div id="detail-image">
+                    <div class="mySlides">
+                        <img alt="detail1" src="../images/physicbook.jpg">
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img alt="detail2" src="../images/chs_book/physicbook.jpeg">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <table id="book-detail">
+                    <caption style="float:left; margin: 7px;">Product Info:</caption>
+                    <col style="width: 40%">
+                    <col style="width: 60%">
+                    <tr>
+                        <td>Author</td>
+                        <td>袁艳红</td>
+                    </tr>
+                    <tr>
+                        <td>Publisher</td>
+                        <td>清华大学出版社</td>
+                    </tr>
+                    <tr>
+                        <td>Published Date</td>
+                        <td>2011/1</td>
+                    </tr>
+                    <tr>
+                        <td>Country Of Publication</td>
+                        <td>China</td>
+                    </tr>
+                    <tr>
+                        <td>No. of Pages</td>
+                        <td>98</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>RM 30.00</td>
+                    </tr>
+                    <tr>
+                        <td>On Hand</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td><button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                            alert('Added To Cart!');">
+                            Add To Cart</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <div id="introduce">
+                    <p>
+                        <span class="intro-title">Introduction:</span>
+                        《大学物理学习题解答与分析》是同济大学袁艳红主编的《大学物理学》（彩色版）的配套教学辅导书。
+                        《大学物理学习题解答与分析》按章节顺序对主教材中的习题进行了分析并予以解答，以启发学生的思路，
+                        巩固所学；并把每章的基本要求和知识要点给予简要的梳理，以帮助学生全面系统地理解主教材的内容。
+                        此外，为了配合将信息技术用于“大学物理学”课程教学；《大学物理学习题解答与分析》
+                        在许多章的后面增补了一些可以用计算机数值求解的习题，并配以相应的分析，
+                        以此可以培养学生运用信息技术手段计算、设计和解决复杂实际问题的能力。《大学物理学习题解答与分析》
+                        可供以《大学物理学》作为主要授课教材的师生使用，也可供其他读者参考。第一章质点运动学一、
+                        基本要求二、知识要点三、习题解答与分析第二章动力学的基本定理和守恒定律一、基本要求二、知识要点三、
+                        习题解答与分析第三章刚体和流体一、基本要求二、知识要点三、习题解答与分析第四章振动与波动一、
+                        基本要求二、知识要点三、习题解答与分析第五章静电场一、基本要求二、知识要点三、
+                        习题解答与分析第六章静电场中的导体和电介质一、基本要求二、知识要点三、习题解答与分析第七章恒定磁场一、
+                        基本要求二、知识要点三、习题解答与分析第八章变化的电磁场一、基本要求二、知识要点三、
+                        习题解答与分析第九章热力学基础一、基本要求二、知识要点三、习题解答与分析第十章气体动理论一、
+                        基本要求二、知识要点三、习题解答与分析第十一章几何光学一、基本要求二、知识要点三、
+                        习题解答与分析第十二章波动光学一、基本要求二、知识要点三、习题解答与分析第十三章狭义相对论一、
+                        基本要求二、知识要点三、习题解答与分析第十四章广义相对论一、基本要求二、知识要点第十五章量子物理一、
+                        基本要求二、知识要点三、习题解答与分析第十六章核物理学-一、基本要求二、知识要点三、
+                        习题解答与分析第十七章粒子物理学一、基本要求二、知识要点三、习题解答与分析第十八章固体物理一、
+                        基本要求二、知识要点三、习题解答与分析
+                    </p>
+                    <p>
+                        <span class="intro-title">Table Of Content:</span>
+                        前言 <br>
+                        第一章质点运动学 <br>
+                        第二章动力学的基本定理和守恒定律 <br>
+                        第三章刚体和流体 <br>
+                        第四章振动与波动 <br>
+                        第五章静电场 <br>
+                        第六章静电场中的导体和电介质 <br>
+                        第七章恒定磁场 <br>
+                        第八章变化的电磁场 <br>
+                        第九章热力学基础 <br>
+                        第十章气体动理论 <br>
+                        第十一章几何光学 <br>
+                        第十二章波动光学 <br>
+                        第十三章狭义相对论 <br>
+                        第十四章广义相对论 <br>
+                        第十五章量子物理 <br>
+                        第十六章核物理学 <br>
+                        第十七章粒子物理学 <br>
+                        第十八章固体物理 <br>
+                        后记
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="footer">
+                <small><i>Copyright@2023 Kelingji Bookstore</i></small>
+            </div>
+        </div>
+
+        <script src="../js/sidebar.js"></script>
+        <script src="../js/detailimage.js"></script>
+
+        <script src="../js/114514(2).js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+</html>

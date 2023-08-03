@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>可林记 Kelingji Bookstore</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="../images/favicon.jpg">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/sidebar.css">
+        <link rel="stylesheet" href="../css/bookdetail.css">
+    </head>
+    <body>
+        <div id="sidebar" class="sidebar">
+            <div class="navigation">
+                <ul>
+                    <li class="list">
+                        <a href="../index.html">
+                            <span class="icon" title="Home"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li class="list active">
+                        <a href="../chs_book.html" title="中文图书">
+                            <span class="icon">中</span>
+                            <span class="title">中文图书</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../eng_book.html" title="English Books">
+                            <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                            <span class="title">English Books</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../stationary.html" title="Stationaries">
+                            <span class="icon"><ion-icon name="cut-outline"></ion-icon></span>
+                            <span class="title">Stationaries</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../aboutus.html" title="About Us">
+                            <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                            <span class="title">About Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../contact.html" title="Contact Us">
+                            <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span class="title">Contact Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../goals.html" title="Our Goals">
+                            <span class="icon"><ion-icon name="trophy-outline"></ion-icon></span>
+                            <span class="title">Our Goals</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div id="mainbody">
+            <div class="header">
+                <a href="../index.html" style="text-decoration: none;">
+                    <h1>可林记 Kelingji Bookstore</h1>
+                </a>
+            </div>
+            <div class="content">
+                <button id="back" onclick="window.history.back()">&#8592; BACK</button>
+
+                <h1 id="book-title">野兽前辈传奇（第一部）</h1>
+
+                <div id="detail-image">
+                    <div class="mySlides">
+                        <img alt="detail1" src="../images/yajuu.jpg">
+                    </div>
+                    
+                    <div class="mySlides">
+                        <img alt="detail2" src="../images/chs_book/yajuusenpai.jpg">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <table id="book-detail">
+                    <caption style="float:left; margin: 7px;">Product Info:</caption>
+                    <col style="width: 40%">
+                    <col style="width: 60%">
+                    <tr>
+                        <td>Author</td>
+                        <td>田所浩二</td>
+                    </tr>
+                    <tr>
+                        <td>Publisher</td>
+                        <td>INM</td>
+                    </tr>
+                    <tr>
+                        <td>Published Date</td>
+                        <td>2022/8/10</td>
+                    </tr>
+                    <tr>
+                        <td>Country Of Publication</td>
+                        <td>China</td>
+                    </tr>
+                    <tr>
+                        <td>No. of Pages</td>
+                        <td>191</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>RM 81.00</td>
+                    </tr>
+                    <tr>
+                        <td>On Hand</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td><button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                            alert('Added To Cart!');">
+                            Add To Cart</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <div id="introduce">
+                    <p>
+                        <span class="intro-title">Introduction:</span>
+                        野兽前辈，原名田所浩二，1919年8月10日出生，在他11岁4个月5秒14毫秒时成为下北泽影视旗下一位演员，
+                        在拍摄《林檎传奇》时，因为不满生活发出了自己的怒吼（恼），
+                        因犯被撅罪被关进一个一个一个监狱，监狱里面的厨房漂亮得很呐（赞赏），
+                        我修院与淳平邀请田所先生来到会员制餐厅品尝了一道（迎宾酒）一道（雪酱面）一道（牡蛎）菜，
+                        表达了对菜品的赞赏（非常的新鲜非常的美味），直到入狱114514秒后出狱，出狱后改名李田所。<br><br>
+                        <b>“哼，哼哼啊啊啊啊啊啊啊啊啊啊啊（悲）” —————野兽前辈</b>
+                    </p>
+                    <p>
+                        <span class="intro-title">Table Of Content:</span>
+                        前言 <br>
+                        会员制餐厅 <br>
+                        如野兽一般 <br>
+                        甲烷是如何制成的 <br>
+                        沼气发酵 <br>
+                        红茶+安眠药=昏睡红茶 <br>
+                        10分甚至9分的赞赏 <br>
+                        好时代来临力（喜） <br>
+                        homo所特有的无孔不入（半恼） <br>
+                        食雪汉（悲） <br>
+                        后记
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="footer">
+                <small><i>Copyright@2023 Kelingji Bookstore</i></small>
+            </div>
+        </div>
+
+        <script src="../js/sidebar.js"></script>
+        <script src="../js/detailimage.js"></script>
+
+        <script src="../js/114514(2).js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>可林记 Kelingji Bookstore</title>
+        <link rel="icon" href="images/favicon.jpg">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/sidebar.css">
+        <link rel="stylesheet" href="css/item.css">
+    </head>
+    <body>
+        <audio id="114514" type="audio/mp3" src="audio/114514music.mp3" loop hidden autoplay></audio>
+        <div id="sidebar" class="sidebar">
+            <div class="navigation">
+                <ul>
+                    <li class="list active">
+                        <a href="index.html">
+                            <span class="icon" title="Home"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="chs_book.html" title="中文图书">
+                            <span class="icon">中</span>
+                            <span class="title">中文图书</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="eng_book.html" title="English Books">
+                            <span class="icon"><ion-icon name="book-outline"></ion-icon></ion-icon></span>
+                            <span class="title">English Books</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="stationary.html" title="Stationaries">
+                            <span class="icon"><ion-icon name="cut-outline"></ion-icon></span>
+                            <span class="title">Stationaries</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="aboutus.html" title="About Us">
+                            <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                            <span class="title">About Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="contact.html" title="Contact Us">
+                            <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span class="title">Contact Us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="goals.html" title="Our Goals">
+                            <span class="icon"><ion-icon name="trophy-outline"></ion-icon></span>
+                            <span class="title">Our Goals</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div id="mainbody">
+            <div class="header">
+                <div id="yajuu"><img src="images/1145141919810.gif"  /></div>
+                <a href="index.html" style="text-decoration: none;">
+                    <h1>可林记 Kelingji Bookstore</h1>
+                </a>
+            </div>
+            <div class="content">
+                <table id="item-table">
+                    <tr>
+                        <td>
+                            <div class="image-box"><img class="stationary" src="images/BANANA.jpg" /></div>
+                            <h2 class="item-title">精选菲律宾香&#9794;蕉汁</h2>
+                            <div class="item-description">
+                                <span>Brand:</span> MILOS&#9794;&#9794;&#9794;<br>
+                                <span>Description:</span> 真的很好&#9794;喝<br>
+                                <span>Price:</span> RM 19.19 
+                                <br><br>
+                                <button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                                    alert('Added To Cart!');">
+                                    Add To Cart</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="image-box"><img class="stationary" src="images/tea.jpg" /></div>
+                            <h2 class="item-title">昏睡林檎茶</h2>
+                            <div class="item-description">
+                                <span>Brand:</span> 田所浩二<br>
+                                <span>Description:</span> 林檎风味，十分甚至九分的美味，喝了让你有个安详的睡眠（确信）<br>
+                                <span>Price:</span> RM 114.51
+                                <br><br>
+                                <button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                                    alert('Added To Cart!');">
+                                    Add To Cart</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="image-box"><img class="stationary" src="images/baozhen.jpg" /></div>
+                            <h2 class="item-title">野兽前辈抱枕</h2>
+                            <div class="item-description">
+                                <span>Brand:</span> 前&#9794;辈&#10084;<br>
+                                <span>Description:</span> 充满了野兽的味道，让你的夜晚不再寂&#9794;寞难耐<br>
+                                <span>Price:</span> RM 19.19 
+                                <br><br>
+                                <button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                                    alert('Added To Cart!');">
+                                    Add To Cart</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="image-box"><img class="stationary" src="images/yanhua.jpg" /></div>
+                            <h2 class="item-title">野兽烟花</h2>
+                            <div class="item-description">
+                                <span>Brand:</span> 田所浩二<br>
+                                <span>Description:</span> 十分甚至九分的有趣，保质期114514年<br>
+                                <span>Price:</span> RM 114.514
+                                <br><br>
+                                <button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                                    alert('Added To Cart!');">
+                                    Add To Cart</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="image-box"><img class="stationary" src="images/yagao.jpg" /></div>
+                            <h2 class="item-title">野兽牙膏</h2>
+                            <div class="item-description">
+                                <span>Brand:</span> MUR<br>
+                                <span>Description:</span> 每天刷三回啊三回，保证你的牙齿十分甚至九分的白（智将）<br>
+                                <span>Price:</span> RM 8.10 
+                                <br><br>
+                                <button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                                    alert('Added To Cart!');">
+                                    Add To Cart</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="image-box"><img class="stationary" src="images/soap.jpg" /></div>
+                            <h2 class="item-title">撅肤佳香皂</h2>
+                            <div class="item-description">
+                                <span>Brand:</span> 田所浩二<br>
+                                <span>Description:</span> 清洗你的林&#9794;檎。这个香皂高达114514克，这么小一块肥皂重达一百多千克怕不是金金金金金做的罢。<br>
+                                <span>Price:</span> RM 114.514
+                                <br><br>
+                                <button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                                    alert('Added To Cart!');">
+                                    Add To Cart</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="image-box"><img class="stationary" src="images/ricardo.jpg" /></div>
+                            <h2 class="item-title">RICARDO MILOS 写真集</h2>
+                            <div class="item-description">
+                                <span>Brand:</span> MILOS&#9794;&#9794;&#9794;<br>
+                                <span>Description:</span> 刚才我在拍写真集的时候，你有在偷看罢？（半恼）<br>
+                                <span>Price:</span> RM 191.9810
+                                <br><br>
+                                <button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                                    alert('Added To Cart!');">
+                                    Add To Cart</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="image-box"><img class="stationary" src="images/avengers.jpg" /></div>
+                            <h2 class="item-title">腐 臭 者 联 盟 1 1 4 5 1 4 ：终 撅 之 战
+                            </h2>
+                            <div class="item-description">
+                                <span>Brand:</span> 下北泽影院<br>
+                                <span>Description:</span> 腐臭者联盟系列，美国漫威携手日本下北泽影院联合拍摄讲述英雄救世，票房24亿，1145w观众观看，位列14位<br>
+                                <span>Price:</span> RM 114.514
+                                <br><br>
+                                <button id="buy" onclick="new Audio('../audio/yarimasune.mp3').play(); 
+                                    alert('Added To Cart!');">
+                                    Add To Cart</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="footer">
+                <small><i>Copyright@2023 Kelingji Bookstore</i></small>
+            </div>
+        </div>
+
+        <script src="js/sidebar.js"></script>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+            window.onload = function(){
+                document.getElementById("114514").play();
+            }
+        </script>
+        
+    </body>
+</html>
